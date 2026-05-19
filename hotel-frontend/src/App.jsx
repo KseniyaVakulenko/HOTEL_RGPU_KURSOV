@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
 import logo from './assets/logo_RGPU.svg';
+import logo2 from './assets/logo2_RGPU.svg';
 import { MapPin, Phone, Mail, Clock, ArrowUp, User } from 'lucide-react';
 import { useState } from 'react';
 import CallbackModal from './components/CallbackModal';
@@ -79,7 +80,7 @@ function AppContent() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="flex flex-col items-start">
               <div className="flex items-center gap-3 mb-4">
-                <img src={logo} alt="Логотип РГПУ" className="w-20 h-20 filter brightness-0 invert" />
+                <img src={logo2} alt="Логотип РГПУ" className="w-20 h-20 filter brightness-0 invert" />
               </div>
               <p className="text-gray-300 text-sm">
                 Университетская гостиница<br />
