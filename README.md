@@ -1,0 +1,2 @@
+# HOTEL_RGPU_KURSOV
+
